@@ -104,4 +104,5 @@ def main(price_fname=csv_fname):
     write_tree(tree)
     pretty_print()
 
-main()
+if __name__ == '__main__':
+    main()
